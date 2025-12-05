@@ -1,8 +1,8 @@
 import { ToxicWord, FlipCardData, ShieldData } from './types';
 
 export const DANMAKU_WORDS = [
-  "去死", "丑八怪", "人肉他", "滚出网络", "垃圾", "虚伪", 
-  "作秀", "键盘侠", "没教养", "你也配", "全家炸了", 
+  "去死", "丑八怪", "人肉他", "滚出网络", "垃圾", "虚伪",
+  "作秀", "键盘侠", "没教养", "你也配", "全家炸了",
   "这就是下场", "笑死我了", "别洗了", "绿茶", "恶心",
   "装什么装", "我要吐了", "P图怪", "死全家", "网络乞丐"
 ];
@@ -47,8 +47,8 @@ export const SHIELD_DATA: ShieldData[] = [
       "善用拉黑与举报：遇到违规内容直接举报，平台有责任在24小时内处理。"
     ],
     links: [
-      { label: "微信安全中心", url: "https://weixin.qq.com/" },
-      { label: "微博社区管理中心", url: "https://service.account.weibo.com/" }
+      { label: "中央网信办 (12377) - 违法和不良信息举报", url: "https://www.12377.cn/" },
+      { label: "工信部 (12321) - 网络不良与垃圾信息举报", url: "https://www.12321.cn/" }
     ]
   },
   {
@@ -61,8 +61,8 @@ export const SHIELD_DATA: ShieldData[] = [
       "刑事责任追究：依据《刑法》第246条，侮辱诽谤情节严重可处三年以下有期徒刑。"
     ],
     links: [
-      { label: "12377 互联网违法和不良信息举报中心", url: "https://www.12377.cn/" },
-      { label: "中国法律服务网", url: "http://www.12348.gov.cn/" }
+      { label: "公安部 - 网络违法犯罪举报网站", url: "http://www.cyberpolice.cn/" },
+      { label: "司法部 (12348) - 中国法律服务网", url: "http://www.12348.gov.cn/" }
     ]
   },
   {
@@ -75,8 +75,8 @@ export const SHIELD_DATA: ShieldData[] = [
       "专业心理援助：如果感到持续的焦虑、失眠或抑郁，请立即拨打心理援助热线或寻求医生帮助。"
     ],
     links: [
-      { label: "希望24热线: 400-161-9995", url: "#" },
-      { label: "全国心理援助热线查询", url: "https://www.mhc.org.cn/" }
+      { label: "共青团中央 (12355) - 青少年服务台", url: "http://www.12355.org.cn/" },
+      { label: "国家心理健康和精神卫生防治中心", url: "https://www.ncmhc.org.cn/" }
     ]
   }
 ];
